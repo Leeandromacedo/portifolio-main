@@ -1,0 +1,23 @@
+/* mobile.css */
+
+@media (max-width: 768px) {
+  .navbar-nav {
+    flex-direction: column;
+  }
+
+  .navbar-nav .nav-item {
+    margin-bottom: 10px;
+  }
+
+  .navbar-toggler {
+    order: -1;
+  }
+
+  section {
+    padding: 40px 0;
+  }
+
+  .container {
+    padding: 10px;
+  }
+}

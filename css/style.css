@@ -1,0 +1,93 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Estilos gerais */
+body {
+  font-family: 'Ubuntu', sans-serif;
+  line-height: 1.6;
+  background-color: #f8f9fa;
+  color: #333333;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Estilos para o cabeçalho */
+header {
+  background-color: #ffffff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 10px 0;
+}
+
+.navbar-brand {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #333333;
+}
+
+.navbar-nav .nav-link {
+  font-size: 1.1rem;
+  color: #333333;
+}
+
+/* Estilos para a barra de navegação */
+.navbar {
+  padding: 0 20px;
+}
+
+.navbar-toggler {
+  border: none;
+}
+
+.navbar-toggler-icon {
+  background-color: #333333;
+}
+
+/* Estilos para as seções */
+section {
+  padding: 60px 0;
+}
+
+h1, h2, h3 {
+  color: #333333;
+}
+
+/* Estilos para imagens */
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Estilos para formulários */
+form {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.form-control {
+  margin-bottom: 15px;
+}
+
+/* Estilos para o rodapé */
+footer {
+  background-color: #343a40;
+  color: #ffffff;
+  text-align: center;
+  padding: 20px 0;
+}
+
+footer a {
+  color: #ffffff;
+}
+
+footer a:hover {
+  text-decoration: none;
+  color: #cccccc;
+}
